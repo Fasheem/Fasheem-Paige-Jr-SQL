@@ -77,11 +77,6 @@ alter table a1_events
 alter table a1_events
 	add constraint fk_event_type foreign key(fk_event_type) references a1_types(event_type)
 
-/* ****************************** */
-/* 4.0                            */
-/* ****************************** */
-
---  this question should be saved as an image or pdf in another file
 
 /* ****************************** */
 /* 5.1                            */
